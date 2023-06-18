@@ -186,6 +186,8 @@ p {
 
 .footer-box-two-p {
   margin-bottom: 16px;
+  color: var(--secondary-text);
+  font-weight: 500;
 }
 .footer-box-two {
   width: 208px;
