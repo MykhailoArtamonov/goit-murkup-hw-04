@@ -305,7 +305,8 @@ p {
 }
 .team-section ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
 }
 .team-li {
   flex-basis: calc((100% - 4 * 24px) / 4);
@@ -348,6 +349,11 @@ p {
   height: 16px;
   width: 16px;
   fill: var(--light);
+}
+
+.team-social-link:hover,
+.team-social-link:active {
+  background-color: var(--active-buttons);
 }
 
 /*   customers-section   */
