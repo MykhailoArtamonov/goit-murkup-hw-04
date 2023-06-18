@@ -178,7 +178,7 @@ p {
 .logo-bottom {
   color: var(--light);
 }
-.footer-p {
+.footer-p .footer-box-two {
   margin-top: 17.5px;
   color: var(--secondary-text);
   font-weight: 500;
