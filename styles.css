@@ -180,7 +180,7 @@ p {
 }
 .footer-p {
   margin-top: 17.5px;
-  color: var(--light);
+  color: var(--secondary-text);
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -377,7 +377,7 @@ p {
   padding-bottom: 120px;
 }
 
-.customers-section > h2 {
+.customers-section > .secondary-h {
   margin-bottom: 72px;
   line-height: 1.11;
   color: var(--dark);
