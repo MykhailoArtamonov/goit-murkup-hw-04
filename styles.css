@@ -178,10 +178,13 @@ p {
 .logo-bottom {
   color: var(--light);
 }
-.footer-p .footer-box-two {
+.footer-p {
   margin-top: 17.5px;
   color: var(--secondary-text);
   font-weight: 500;
+}
+
+.footer-box-two-p {
   margin-bottom: 16px;
 }
 .footer-box-two {
@@ -377,12 +380,6 @@ p {
   padding-bottom: 120px;
 }
 
-.customers-section > .secondary-h {
-  margin-bottom: 72px;
-  line-height: 1.11;
-  color: var(--dark);
-  margin-bottom: 72px;
-}
 .customers-list-ul {
   display: flex;
   justify-content: center;
@@ -407,6 +404,12 @@ p {
   width: 104px;
   height: 56px;
   fill: currentColor;
+}
+.customers-h2 {
+  margin-bottom: 72px;
+  line-height: 1.11;
+  color: var(--dark);
+  margin-bottom: 72px;
 }
 
 .customers-link:hover .customers-icon {
