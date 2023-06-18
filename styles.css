@@ -366,6 +366,9 @@ p {
 
 .customers-section > h2 {
   margin-bottom: 72px;
+  line-height: 1.11;
+  color: var(--dark);
+  margin-bottom: 72px;
 }
 .customers-list-ul {
   display: flex;
@@ -382,18 +385,25 @@ p {
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
   padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--subtle-text);
 }
 .customers-icon {
   width: 104px;
   height: 56px;
-  fill: var(--customers-logos);
+  fill: currentColor;
 }
 
 .customers-link:hover .customers-icon {
   fill: var(--primary-brand);
 }
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border-color: var(--primary-brand);
+  border-color: var(--active-buttons);
+  color: var(--active-buttons);
 }
 
 /*     PORTFOLIO PAGE     */
