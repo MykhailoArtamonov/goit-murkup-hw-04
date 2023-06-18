@@ -89,6 +89,12 @@ p {
   box-shadow: 0px 4px 4px var(--shadow-three);
 }
 
+.filter-buttons:hover,
+.filter-buttons:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /*   HEADER   */
 
 .logo {
@@ -456,4 +462,13 @@ p {
 }
 .filter-list-box h3 {
   margin-bottom: 8px;
+}
+
+.filter-link {
+  display: block;
+}
+.filter-link:hover,
+.filter-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
