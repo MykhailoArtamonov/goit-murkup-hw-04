@@ -352,7 +352,8 @@ p {
 }
 
 .team-social-link:hover,
-.team-social-link:active {
+.team-social-link:active,
+.team-social-link:focus {
   background-color: var(--active-buttons);
 }
 
